@@ -1,7 +1,9 @@
 package com.vj.a2a.estore.order.tools;
 
 import org.springframework.ai.tool.annotation.Tool;
+import org.springframework.ai.tool.annotation.ToolParam;
 import org.springframework.stereotype.Service;
+
 
 import java.util.List;
 
@@ -35,6 +37,16 @@ public class OrderAgentTools {
         return orders.stream()
                 .filter(o -> o.type().equalsIgnoreCase("B2C")).toList();
     }
+    
+    @Tool(name = "Get All Order By Seller", description = "Return all orders by seller id")
+    public List<Order> getAllOrderBySeller(
+            @ToolParam(description = "Seller Id") String sellerId
+    ) {
+        return orders.stream()
+                .filter(o -> o.sellerId.equals(sellerId))
+                .toList();
+    }
+
 
     public record Order(String id, String type, String sellerId, double amount, String customerName) {}
 }
