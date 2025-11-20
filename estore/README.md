@@ -1,4 +1,4 @@
-# estore Service – Getting Started
+# Estore Service – Getting Started
 
 This module is part of the **ai-agent2agent** multi-module Maven project.  
 The **estore** service provides Spring Boot–based API endpoints and integrates with Spring AI components.

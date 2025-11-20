@@ -92,9 +92,9 @@ ai-agent2agent/
 
 ### 2. Build & Run
 
-* [Estore Agent (Multi Agent)](https://github.com/loginvijayan/ai-agent2agent/blob/main/estore/README.MD)
-* [Order Agent](https://github.com/loginvijayan/ai-agent2agent/blob/main/order/README.MD)
-* [Seller Agent](https://github.com/loginvijayan/ai-agent2agent/blob/main/seller/README.MD)
+* [Estore Agent (Multi Agent)](https://github.com/loginvijayan/ai-agent2agent/tree/main/estore#readme)
+* [Order Agent](https://github.com/loginvijayan/ai-agent2agent/tree/main/order#readme)
+* [Seller Agent](https://github.com/loginvijayan/ai-agent2agent/tree/main/seller#readme)
 
 ---
 
